@@ -1,0 +1,1623 @@
+08-Sep-2025 15:34:06.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.108
+08-Sep-2025 15:34:06.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 31 2025 18:19:48 UTC
+08-Sep-2025 15:34:06.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.108.0
+08-Sep-2025 15:34:06.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+08-Sep-2025 15:34:06.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     15.6.1
+08-Sep-2025 15:34:06.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+08-Sep-2025 15:34:06.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+08-Sep-2025 15:34:06.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.12+8-LTS-286
+08-Sep-2025 15:34:06.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+08-Sep-2025 15:34:06.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 15:34:06.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/shingiseop/tomcat9
+08-Sep-2025 15:34:06.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Sep-2025 15:34:06.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+08-Sep-2025 15:34:06.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+08-Sep-2025 15:34:06.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Sep-2025 15:34:06.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Sep-2025 15:34:06.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/shingiseop/tomcat9
+08-Sep-2025 15:34:06.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 15:34:06.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/shingiseop/Desktop/spart/lunch_rec/temp
+08-Sep-2025 15:34:06.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/shingiseop/Desktop/spart/lunch_rec/conf/logging.properties
+08-Sep-2025 15:34:06.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Sep-2025 15:34:06.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=50969:/Applications/IntelliJ IDEA.app/Contents/bin
+08-Sep-2025 15:34:06.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+08-Sep-2025 15:34:06.121 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/shingiseop/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Sep-2025 15:34:06.287 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-5200"]을(를) 초기화합니다.
+08-Sep-2025 15:34:06.297 INFO [main] org.apache.catalina.startup.Catalina.load [348] 밀리초 내에 서버가 초기화되었습니다.
+08-Sep-2025 15:34:06.315 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+08-Sep-2025 15:34:06.315 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.108]
+08-Sep-2025 15:34:06.319 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]을(를) 배치합니다.
+08-Sep-2025 15:34:06.407 SEVERE [main] org.apache.tomcat.util.digester.Digester.fatalError [1] 행 [1] 열에서 심각한 파싱 오류 발생
+	org.xml.sax.SAXParseException; systemId: file:/Users/shingiseop/Desktop/spart/lunch_rec/src/webapp/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Premature end of file.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1013)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:114)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1247)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:972)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4407)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1579)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+08-Sep-2025 15:34:06.409 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml [file:/Users/shingiseop/Desktop/spart/lunch_rec/src/webapp/WEB-INF/web.xml]에 위치한 애플리케이션 web.xml 내에서 파싱 오류 발생
+	org.xml.sax.SAXParseException; systemId: file:/Users/shingiseop/Desktop/spart/lunch_rec/src/webapp/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Premature end of file.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1013)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:114)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1247)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:972)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4407)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1579)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+08-Sep-2025 15:34:06.409 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml 행 [1], 열 [1]에서 발생했음
+08-Sep-2025 15:34:06.419 SEVERE [main] org.apache.catalina.startup.ContextConfig.configureStart 이전 오류(들)로 인하여, 이 애플리케이션이 가용하지 않은 것으로 표시합니다.
+08-Sep-2025 15:34:06.437 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal 하나 이상의 구성요소(들)이, 해당 컨텍스트가 올바로 설정되지 않았다고 표시했습니다.
+08-Sep-2025 15:34:06.447 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal 이전 오류들로 인해 컨텍스트 []의 시작이 실패했습니다.
+08-Sep-2025 15:34:06.451 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]의 배치가 [132] 밀리초 내에 완료되었습니다.
+08-Sep-2025 15:34:06.452 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-5200"]을(를) 시작합니다.
+08-Sep-2025 15:34:06.462 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [164] 밀리초 내에 시작되었습니다.
+08-Sep-2025 15:34:08.487 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-5200"]을(를) 일시 정지 중
+08-Sep-2025 15:34:08.494 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+08-Sep-2025 15:34:08.495 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-5200"]을(를) 중지시킵니다.
+08-Sep-2025 15:34:08.502 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-5200"]을(를) 소멸시킵니다.
+08-Sep-2025 15:34:58.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.108
+08-Sep-2025 15:34:58.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 31 2025 18:19:48 UTC
+08-Sep-2025 15:34:58.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.108.0
+08-Sep-2025 15:34:58.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+08-Sep-2025 15:34:58.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     15.6.1
+08-Sep-2025 15:34:58.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+08-Sep-2025 15:34:58.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+08-Sep-2025 15:34:58.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.12+8-LTS-286
+08-Sep-2025 15:34:58.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+08-Sep-2025 15:34:58.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 15:34:58.851 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/shingiseop/tomcat9
+08-Sep-2025 15:34:58.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Sep-2025 15:34:58.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+08-Sep-2025 15:34:58.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+08-Sep-2025 15:34:58.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Sep-2025 15:34:58.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Sep-2025 15:34:58.857 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/shingiseop/tomcat9
+08-Sep-2025 15:34:58.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 15:34:58.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/shingiseop/Desktop/spart/lunch_rec/temp
+08-Sep-2025 15:34:58.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/shingiseop/Desktop/spart/lunch_rec/conf/logging.properties
+08-Sep-2025 15:34:58.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Sep-2025 15:34:58.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=50975:/Applications/IntelliJ IDEA.app/Contents/bin
+08-Sep-2025 15:34:58.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+08-Sep-2025 15:34:58.868 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/shingiseop/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Sep-2025 15:34:59.087 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-5200"]을(를) 초기화합니다.
+08-Sep-2025 15:34:59.106 INFO [main] org.apache.catalina.startup.Catalina.load [383] 밀리초 내에 서버가 초기화되었습니다.
+08-Sep-2025 15:34:59.139 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+08-Sep-2025 15:34:59.139 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.108]
+08-Sep-2025 15:34:59.146 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]을(를) 배치합니다.
+08-Sep-2025 15:34:59.236 SEVERE [main] org.apache.tomcat.util.digester.Digester.fatalError [1] 행 [1] 열에서 심각한 파싱 오류 발생
+	org.xml.sax.SAXParseException; systemId: file:/Users/shingiseop/Desktop/spart/lunch_rec/src/webapp/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Premature end of file.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1013)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:114)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1247)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:972)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4407)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1579)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+08-Sep-2025 15:34:59.237 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml [file:/Users/shingiseop/Desktop/spart/lunch_rec/src/webapp/WEB-INF/web.xml]에 위치한 애플리케이션 web.xml 내에서 파싱 오류 발생
+	org.xml.sax.SAXParseException; systemId: file:/Users/shingiseop/Desktop/spart/lunch_rec/src/webapp/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Premature end of file.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1013)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:114)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1247)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:972)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4407)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1579)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+08-Sep-2025 15:34:59.238 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml 행 [1], 열 [1]에서 발생했음
+08-Sep-2025 15:34:59.248 SEVERE [main] org.apache.catalina.startup.ContextConfig.configureStart 이전 오류(들)로 인하여, 이 애플리케이션이 가용하지 않은 것으로 표시합니다.
+08-Sep-2025 15:34:59.269 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal 하나 이상의 구성요소(들)이, 해당 컨텍스트가 올바로 설정되지 않았다고 표시했습니다.
+08-Sep-2025 15:34:59.280 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal 이전 오류들로 인해 컨텍스트 []의 시작이 실패했습니다.
+08-Sep-2025 15:34:59.285 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]의 배치가 [140] 밀리초 내에 완료되었습니다.
+08-Sep-2025 15:34:59.287 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-5200"]을(를) 시작합니다.
+08-Sep-2025 15:34:59.299 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [192] 밀리초 내에 시작되었습니다.
+08-Sep-2025 15:35:22.069 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-5200"]을(를) 일시 정지 중
+08-Sep-2025 15:35:22.072 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+08-Sep-2025 15:35:22.073 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-5200"]을(를) 중지시킵니다.
+08-Sep-2025 15:35:22.077 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-5200"]을(를) 소멸시킵니다.
+08-Sep-2025 15:38:06.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.108
+08-Sep-2025 15:38:06.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 31 2025 18:19:48 UTC
+08-Sep-2025 15:38:06.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.108.0
+08-Sep-2025 15:38:06.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+08-Sep-2025 15:38:06.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     15.6.1
+08-Sep-2025 15:38:06.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+08-Sep-2025 15:38:06.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+08-Sep-2025 15:38:06.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.12+8-LTS-286
+08-Sep-2025 15:38:06.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+08-Sep-2025 15:38:06.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 15:38:06.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/shingiseop/tomcat9
+08-Sep-2025 15:38:06.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Sep-2025 15:38:06.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+08-Sep-2025 15:38:06.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+08-Sep-2025 15:38:06.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Sep-2025 15:38:06.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Sep-2025 15:38:06.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/shingiseop/tomcat9
+08-Sep-2025 15:38:06.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 15:38:06.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/shingiseop/Desktop/spart/lunch_rec/temp
+08-Sep-2025 15:38:06.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/shingiseop/Desktop/spart/lunch_rec/conf/logging.properties
+08-Sep-2025 15:38:06.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Sep-2025 15:38:06.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=50989:/Applications/IntelliJ IDEA.app/Contents/bin
+08-Sep-2025 15:38:06.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+08-Sep-2025 15:38:06.605 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/shingiseop/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Sep-2025 15:38:06.793 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-5200"]을(를) 초기화합니다.
+08-Sep-2025 15:38:06.806 INFO [main] org.apache.catalina.startup.Catalina.load [338] 밀리초 내에 서버가 초기화되었습니다.
+08-Sep-2025 15:38:06.831 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+08-Sep-2025 15:38:06.831 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.108]
+08-Sep-2025 15:38:06.836 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]을(를) 배치합니다.
+08-Sep-2025 15:38:06.927 SEVERE [main] org.apache.tomcat.util.digester.Digester.fatalError [1] 행 [1] 열에서 심각한 파싱 오류 발생
+	org.xml.sax.SAXParseException; systemId: file:/Users/shingiseop/Desktop/spart/lunch_rec/src/webapp/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Premature end of file.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1013)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:114)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1247)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:972)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4407)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1579)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+08-Sep-2025 15:38:06.928 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml [file:/Users/shingiseop/Desktop/spart/lunch_rec/src/webapp/WEB-INF/web.xml]에 위치한 애플리케이션 web.xml 내에서 파싱 오류 발생
+	org.xml.sax.SAXParseException; systemId: file:/Users/shingiseop/Desktop/spart/lunch_rec/src/webapp/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Premature end of file.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1013)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:114)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1247)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:972)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4407)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1579)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+08-Sep-2025 15:38:06.929 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml 행 [1], 열 [1]에서 발생했음
+08-Sep-2025 15:38:06.937 SEVERE [main] org.apache.catalina.startup.ContextConfig.configureStart 이전 오류(들)로 인하여, 이 애플리케이션이 가용하지 않은 것으로 표시합니다.
+08-Sep-2025 15:38:06.954 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal 하나 이상의 구성요소(들)이, 해당 컨텍스트가 올바로 설정되지 않았다고 표시했습니다.
+08-Sep-2025 15:38:06.964 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal 이전 오류들로 인해 컨텍스트 []의 시작이 실패했습니다.
+08-Sep-2025 15:38:06.968 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]의 배치가 [132] 밀리초 내에 완료되었습니다.
+08-Sep-2025 15:38:06.969 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-5200"]을(를) 시작합니다.
+08-Sep-2025 15:38:06.977 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [171] 밀리초 내에 시작되었습니다.
+08-Sep-2025 15:38:22.285 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-5200"]을(를) 일시 정지 중
+08-Sep-2025 15:38:22.289 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+08-Sep-2025 15:38:22.290 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-5200"]을(를) 중지시킵니다.
+08-Sep-2025 15:38:22.296 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-5200"]을(를) 소멸시킵니다.
+08-Sep-2025 15:39:41.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.108
+08-Sep-2025 15:39:41.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 31 2025 18:19:48 UTC
+08-Sep-2025 15:39:41.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.108.0
+08-Sep-2025 15:39:41.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+08-Sep-2025 15:39:41.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     15.6.1
+08-Sep-2025 15:39:41.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+08-Sep-2025 15:39:41.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+08-Sep-2025 15:39:41.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.12+8-LTS-286
+08-Sep-2025 15:39:41.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+08-Sep-2025 15:39:41.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 15:39:41.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/shingiseop/tomcat9
+08-Sep-2025 15:39:41.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Sep-2025 15:39:41.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+08-Sep-2025 15:39:41.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+08-Sep-2025 15:39:41.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Sep-2025 15:39:41.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Sep-2025 15:39:41.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/shingiseop/tomcat9
+08-Sep-2025 15:39:41.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 15:39:41.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/shingiseop/Desktop/spart/lunch_rec/temp
+08-Sep-2025 15:39:41.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/shingiseop/Desktop/spart/lunch_rec/conf/logging.properties
+08-Sep-2025 15:39:41.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Sep-2025 15:39:41.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=51004:/Applications/IntelliJ IDEA.app/Contents/bin
+08-Sep-2025 15:39:41.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+08-Sep-2025 15:39:41.595 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/shingiseop/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Sep-2025 15:39:41.765 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-5200"]을(를) 초기화합니다.
+08-Sep-2025 15:39:41.780 INFO [main] org.apache.catalina.startup.Catalina.load [319] 밀리초 내에 서버가 초기화되었습니다.
+08-Sep-2025 15:39:41.809 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+08-Sep-2025 15:39:41.809 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.108]
+08-Sep-2025 15:39:41.814 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]을(를) 배치합니다.
+08-Sep-2025 15:39:41.843 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]을(를) 배치하는 중 오류 발생
+	java.lang.IllegalStateException: 자식 컨테이너를 시작하는 중 오류 발생
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1579)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: 구성요소 [org.apache.catalina.webresources.StandardRoot@13526e59]을(를) 시작하지 못했습니다.
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:406)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4172)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4294)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/Users/shingiseop/Desktop/spart/lunch_rec/src/webapp] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:758)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:715)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 41 more
+08-Sep-2025 15:39:41.850 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]의 배치가 [31] 밀리초 내에 완료되었습니다.
+08-Sep-2025 15:39:41.855 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-5200"]을(를) 시작합니다.
+08-Sep-2025 15:39:41.867 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [86] 밀리초 내에 시작되었습니다.
+08-Sep-2025 15:39:59.407 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-5200"]을(를) 일시 정지 중
+08-Sep-2025 15:39:59.414 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+08-Sep-2025 15:39:59.415 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-5200"]을(를) 중지시킵니다.
+08-Sep-2025 15:39:59.421 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-5200"]을(를) 소멸시킵니다.
+08-Sep-2025 15:40:00.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.108
+08-Sep-2025 15:40:00.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 31 2025 18:19:48 UTC
+08-Sep-2025 15:40:00.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.108.0
+08-Sep-2025 15:40:00.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+08-Sep-2025 15:40:00.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     15.6.1
+08-Sep-2025 15:40:00.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+08-Sep-2025 15:40:00.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+08-Sep-2025 15:40:00.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.12+8-LTS-286
+08-Sep-2025 15:40:00.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+08-Sep-2025 15:40:00.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 15:40:00.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/shingiseop/tomcat9
+08-Sep-2025 15:40:00.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Sep-2025 15:40:00.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+08-Sep-2025 15:40:00.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+08-Sep-2025 15:40:00.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Sep-2025 15:40:00.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Sep-2025 15:40:00.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/shingiseop/tomcat9
+08-Sep-2025 15:40:00.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 15:40:00.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/shingiseop/Desktop/spart/lunch_rec/temp
+08-Sep-2025 15:40:00.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/shingiseop/Desktop/spart/lunch_rec/conf/logging.properties
+08-Sep-2025 15:40:00.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Sep-2025 15:40:00.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=51009:/Applications/IntelliJ IDEA.app/Contents/bin
+08-Sep-2025 15:40:00.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+08-Sep-2025 15:40:00.423 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/shingiseop/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Sep-2025 15:40:00.623 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-5200"]을(를) 초기화합니다.
+08-Sep-2025 15:40:00.640 INFO [main] org.apache.catalina.startup.Catalina.load [343] 밀리초 내에 서버가 초기화되었습니다.
+08-Sep-2025 15:40:00.665 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+08-Sep-2025 15:40:00.666 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.108]
+08-Sep-2025 15:40:00.671 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]을(를) 배치합니다.
+08-Sep-2025 15:40:00.767 SEVERE [main] org.apache.tomcat.util.digester.Digester.fatalError [1] 행 [1] 열에서 심각한 파싱 오류 발생
+	org.xml.sax.SAXParseException; systemId: file:/Users/shingiseop/Desktop/spart/lunch_rec/src/main/webapp/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Premature end of file.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1013)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:114)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1247)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:972)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4407)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1579)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+08-Sep-2025 15:40:00.768 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml [file:/Users/shingiseop/Desktop/spart/lunch_rec/src/main/webapp/WEB-INF/web.xml]에 위치한 애플리케이션 web.xml 내에서 파싱 오류 발생
+	org.xml.sax.SAXParseException; systemId: file:/Users/shingiseop/Desktop/spart/lunch_rec/src/main/webapp/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Premature end of file.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1013)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:114)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1247)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:972)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4407)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1579)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+08-Sep-2025 15:40:00.769 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml 행 [1], 열 [1]에서 발생했음
+08-Sep-2025 15:40:00.778 SEVERE [main] org.apache.catalina.startup.ContextConfig.configureStart 이전 오류(들)로 인하여, 이 애플리케이션이 가용하지 않은 것으로 표시합니다.
+08-Sep-2025 15:40:00.795 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal 하나 이상의 구성요소(들)이, 해당 컨텍스트가 올바로 설정되지 않았다고 표시했습니다.
+08-Sep-2025 15:40:00.805 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal 이전 오류들로 인해 컨텍스트 []의 시작이 실패했습니다.
+08-Sep-2025 15:40:00.808 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]의 배치가 [137] 밀리초 내에 완료되었습니다.
+08-Sep-2025 15:40:00.810 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-5200"]을(를) 시작합니다.
+08-Sep-2025 15:40:00.817 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [176] 밀리초 내에 시작되었습니다.
+08-Sep-2025 15:40:20.081 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-5200"]을(를) 일시 정지 중
+08-Sep-2025 15:40:20.085 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+08-Sep-2025 15:40:20.087 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-5200"]을(를) 중지시킵니다.
+08-Sep-2025 15:40:20.092 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-5200"]을(를) 소멸시킵니다.
+08-Sep-2025 15:41:42.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.108
+08-Sep-2025 15:41:42.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 31 2025 18:19:48 UTC
+08-Sep-2025 15:41:42.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.108.0
+08-Sep-2025 15:41:42.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+08-Sep-2025 15:41:42.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     15.6.1
+08-Sep-2025 15:41:42.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+08-Sep-2025 15:41:42.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+08-Sep-2025 15:41:42.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.12+8-LTS-286
+08-Sep-2025 15:41:42.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+08-Sep-2025 15:41:42.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 15:41:42.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/shingiseop/tomcat9
+08-Sep-2025 15:41:42.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Sep-2025 15:41:42.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+08-Sep-2025 15:41:42.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+08-Sep-2025 15:41:42.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Sep-2025 15:41:42.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Sep-2025 15:41:42.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/shingiseop/tomcat9
+08-Sep-2025 15:41:42.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 15:41:42.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/shingiseop/Desktop/spart/lunch_rec/temp
+08-Sep-2025 15:41:42.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/shingiseop/Desktop/spart/lunch_rec/conf/logging.properties
+08-Sep-2025 15:41:42.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Sep-2025 15:41:42.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=51017:/Applications/IntelliJ IDEA.app/Contents/bin
+08-Sep-2025 15:41:42.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+08-Sep-2025 15:41:42.322 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/shingiseop/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Sep-2025 15:41:42.486 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-5200"]을(를) 초기화합니다.
+08-Sep-2025 15:41:42.500 INFO [main] org.apache.catalina.startup.Catalina.load [307] 밀리초 내에 서버가 초기화되었습니다.
+08-Sep-2025 15:41:42.522 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+08-Sep-2025 15:41:42.522 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.108]
+08-Sep-2025 15:41:42.528 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]을(를) 배치합니다.
+08-Sep-2025 15:41:42.630 SEVERE [main] org.apache.tomcat.util.digester.Digester.fatalError [1] 행 [1] 열에서 심각한 파싱 오류 발생
+	org.xml.sax.SAXParseException; systemId: file:/Users/shingiseop/Desktop/spart/lunch_rec/src/webapp/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Premature end of file.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1013)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:114)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1247)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:972)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4407)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1579)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+08-Sep-2025 15:41:42.630 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml [file:/Users/shingiseop/Desktop/spart/lunch_rec/src/webapp/WEB-INF/web.xml]에 위치한 애플리케이션 web.xml 내에서 파싱 오류 발생
+	org.xml.sax.SAXParseException; systemId: file:/Users/shingiseop/Desktop/spart/lunch_rec/src/webapp/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Premature end of file.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1013)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:114)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1247)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:972)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4407)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1579)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+08-Sep-2025 15:41:42.631 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml 행 [1], 열 [1]에서 발생했음
+08-Sep-2025 15:41:42.641 SEVERE [main] org.apache.catalina.startup.ContextConfig.configureStart 이전 오류(들)로 인하여, 이 애플리케이션이 가용하지 않은 것으로 표시합니다.
+08-Sep-2025 15:41:42.662 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal 하나 이상의 구성요소(들)이, 해당 컨텍스트가 올바로 설정되지 않았다고 표시했습니다.
+08-Sep-2025 15:41:42.672 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal 이전 오류들로 인해 컨텍스트 []의 시작이 실패했습니다.
+08-Sep-2025 15:41:42.677 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]의 배치가 [148] 밀리초 내에 완료되었습니다.
+08-Sep-2025 15:41:42.678 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-5200"]을(를) 시작합니다.
+08-Sep-2025 15:41:42.686 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [186] 밀리초 내에 시작되었습니다.
+08-Sep-2025 15:42:36.877 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-5200"]을(를) 일시 정지 중
+08-Sep-2025 15:42:36.880 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+08-Sep-2025 15:42:36.882 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-5200"]을(를) 중지시킵니다.
+08-Sep-2025 15:42:36.888 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-5200"]을(를) 소멸시킵니다.
+08-Sep-2025 15:42:55.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.108
+08-Sep-2025 15:42:55.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 31 2025 18:19:48 UTC
+08-Sep-2025 15:42:55.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.108.0
+08-Sep-2025 15:42:55.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+08-Sep-2025 15:42:55.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     15.6.1
+08-Sep-2025 15:42:55.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+08-Sep-2025 15:42:55.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+08-Sep-2025 15:42:55.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.12+8-LTS-286
+08-Sep-2025 15:42:55.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+08-Sep-2025 15:42:55.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 15:42:55.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/shingiseop/tomcat9
+08-Sep-2025 15:42:55.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Sep-2025 15:42:55.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+08-Sep-2025 15:42:55.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+08-Sep-2025 15:42:55.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Sep-2025 15:42:55.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Sep-2025 15:42:55.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/shingiseop/tomcat9
+08-Sep-2025 15:42:55.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 15:42:55.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/shingiseop/Desktop/spart/lunch_rec/temp
+08-Sep-2025 15:42:55.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/shingiseop/Desktop/spart/lunch_rec/conf/logging.properties
+08-Sep-2025 15:42:55.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Sep-2025 15:42:55.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=51028:/Applications/IntelliJ IDEA.app/Contents/bin
+08-Sep-2025 15:42:55.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+08-Sep-2025 15:42:55.757 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/shingiseop/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Sep-2025 15:42:56.202 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-5200"]을(를) 초기화합니다.
+08-Sep-2025 15:42:56.234 INFO [main] org.apache.catalina.startup.Catalina.load [695] 밀리초 내에 서버가 초기화되었습니다.
+08-Sep-2025 15:42:56.318 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+08-Sep-2025 15:42:56.323 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.108]
+08-Sep-2025 15:42:56.328 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]을(를) 배치합니다.
+08-Sep-2025 15:42:56.538 SEVERE [main] org.apache.tomcat.util.digester.Digester.fatalError [1] 행 [1] 열에서 심각한 파싱 오류 발생
+	org.xml.sax.SAXParseException; systemId: file:/Users/shingiseop/Desktop/spart/lunch_rec/src/webapp/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Premature end of file.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1013)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:114)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1247)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:972)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4407)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1579)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+08-Sep-2025 15:42:56.539 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml [file:/Users/shingiseop/Desktop/spart/lunch_rec/src/webapp/WEB-INF/web.xml]에 위치한 애플리케이션 web.xml 내에서 파싱 오류 발생
+	org.xml.sax.SAXParseException; systemId: file:/Users/shingiseop/Desktop/spart/lunch_rec/src/webapp/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Premature end of file.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1013)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:114)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1247)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:972)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4407)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1579)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+08-Sep-2025 15:42:56.540 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml 행 [1], 열 [1]에서 발생했음
+08-Sep-2025 15:42:56.553 SEVERE [main] org.apache.catalina.startup.ContextConfig.configureStart 이전 오류(들)로 인하여, 이 애플리케이션이 가용하지 않은 것으로 표시합니다.
+08-Sep-2025 15:42:56.579 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal 하나 이상의 구성요소(들)이, 해당 컨텍스트가 올바로 설정되지 않았다고 표시했습니다.
+08-Sep-2025 15:42:56.596 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal 이전 오류들로 인해 컨텍스트 []의 시작이 실패했습니다.
+08-Sep-2025 15:42:56.604 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]의 배치가 [275] 밀리초 내에 완료되었습니다.
+08-Sep-2025 15:42:56.607 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-5200"]을(를) 시작합니다.
+08-Sep-2025 15:42:56.617 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [382] 밀리초 내에 시작되었습니다.
+08-Sep-2025 15:48:52.366 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-5200"]을(를) 일시 정지 중
+08-Sep-2025 15:48:52.369 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+08-Sep-2025 15:48:52.371 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-5200"]을(를) 중지시킵니다.
+08-Sep-2025 15:48:52.375 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-5200"]을(를) 소멸시킵니다.
+08-Sep-2025 15:51:36.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.108
+08-Sep-2025 15:51:36.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 31 2025 18:19:48 UTC
+08-Sep-2025 15:51:36.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.108.0
+08-Sep-2025 15:51:36.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+08-Sep-2025 15:51:36.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     15.6.1
+08-Sep-2025 15:51:36.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+08-Sep-2025 15:51:36.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+08-Sep-2025 15:51:36.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.12+8-LTS-286
+08-Sep-2025 15:51:36.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+08-Sep-2025 15:51:36.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 15:51:36.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/shingiseop/tomcat9
+08-Sep-2025 15:51:36.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Sep-2025 15:51:36.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+08-Sep-2025 15:51:36.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+08-Sep-2025 15:51:36.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Sep-2025 15:51:36.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Sep-2025 15:51:36.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/shingiseop/tomcat9
+08-Sep-2025 15:51:36.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 15:51:36.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/shingiseop/Desktop/spart/lunch_rec/temp
+08-Sep-2025 15:51:36.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/shingiseop/Desktop/spart/lunch_rec/conf/logging.properties
+08-Sep-2025 15:51:36.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Sep-2025 15:51:36.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=51061:/Applications/IntelliJ IDEA.app/Contents/bin
+08-Sep-2025 15:51:36.486 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+08-Sep-2025 15:51:36.498 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/shingiseop/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Sep-2025 15:51:36.666 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-5200"]을(를) 초기화합니다.
+08-Sep-2025 15:51:36.677 INFO [main] org.apache.catalina.startup.Catalina.load [332] 밀리초 내에 서버가 초기화되었습니다.
+08-Sep-2025 15:51:36.695 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+08-Sep-2025 15:51:36.695 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.108]
+08-Sep-2025 15:51:36.700 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]을(를) 배치합니다.
+08-Sep-2025 15:51:36.729 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]을(를) 배치하는 중 오류 발생
+	java.lang.IllegalStateException: 자식 컨테이너를 시작하는 중 오류 발생
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1579)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: 구성요소 [org.apache.catalina.webresources.StandardRoot@7975d1d8]을(를) 시작하지 못했습니다.
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:406)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4172)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4294)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/Users/shingiseop/Desktop/spart/lunch_rec/src/webapp] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:758)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:715)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 41 more
+08-Sep-2025 15:51:36.732 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]의 배치가 [31] 밀리초 내에 완료되었습니다.
+08-Sep-2025 15:51:36.737 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-5200"]을(를) 시작합니다.
+08-Sep-2025 15:51:36.748 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [71] 밀리초 내에 시작되었습니다.
+08-Sep-2025 15:53:08.283 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-5200"]을(를) 일시 정지 중
+08-Sep-2025 15:53:08.291 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+08-Sep-2025 15:53:08.292 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-5200"]을(를) 중지시킵니다.
+08-Sep-2025 15:53:08.295 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-5200"]을(를) 소멸시킵니다.
+08-Sep-2025 16:25:55.817 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.108
+08-Sep-2025 16:25:55.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 31 2025 18:19:48 UTC
+08-Sep-2025 16:25:55.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.108.0
+08-Sep-2025 16:25:55.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+08-Sep-2025 16:25:55.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     15.6.1
+08-Sep-2025 16:25:55.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+08-Sep-2025 16:25:55.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+08-Sep-2025 16:25:55.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.12+8-LTS-286
+08-Sep-2025 16:25:55.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+08-Sep-2025 16:25:55.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 16:25:55.820 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/shingiseop/tomcat9
+08-Sep-2025 16:25:55.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Sep-2025 16:25:55.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+08-Sep-2025 16:25:55.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+08-Sep-2025 16:25:55.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Sep-2025 16:25:55.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Sep-2025 16:25:55.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/shingiseop/tomcat9
+08-Sep-2025 16:25:55.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 16:25:55.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/shingiseop/Desktop/spart/lunch_rec/temp
+08-Sep-2025 16:25:55.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/shingiseop/Desktop/spart/lunch_rec/conf/logging.properties
+08-Sep-2025 16:25:55.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Sep-2025 16:25:55.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=51213:/Applications/IntelliJ IDEA.app/Contents/bin
+08-Sep-2025 16:25:55.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+08-Sep-2025 16:25:55.834 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/shingiseop/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Sep-2025 16:25:56.004 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-5200"]을(를) 초기화합니다.
+08-Sep-2025 16:25:56.016 INFO [main] org.apache.catalina.startup.Catalina.load [309] 밀리초 내에 서버가 초기화되었습니다.
+08-Sep-2025 16:25:56.035 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+08-Sep-2025 16:25:56.035 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.108]
+08-Sep-2025 16:25:56.040 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]을(를) 배치합니다.
+08-Sep-2025 16:25:56.073 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]을(를) 배치하는 중 오류 발생
+	java.lang.IllegalStateException: 자식 컨테이너를 시작하는 중 오류 발생
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:602)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1579)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: 구성요소 [org.apache.catalina.webresources.StandardRoot@769a1df5]을(를) 시작하지 못했습니다.
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:406)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4172)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4294)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/Users/shingiseop/Desktop/spart/lunch_rec/src/webapp] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:758)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:715)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 41 more
+08-Sep-2025 16:25:56.079 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]의 배치가 [35] 밀리초 내에 완료되었습니다.
+08-Sep-2025 16:25:56.083 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-5200"]을(를) 시작합니다.
+08-Sep-2025 16:25:56.093 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [76] 밀리초 내에 시작되었습니다.
+08-Sep-2025 16:27:09.390 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-5200"]을(를) 일시 정지 중
+08-Sep-2025 16:27:09.398 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+08-Sep-2025 16:27:09.400 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-5200"]을(를) 중지시킵니다.
+08-Sep-2025 16:27:09.404 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-5200"]을(를) 소멸시킵니다.
+08-Sep-2025 16:27:25.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.108
+08-Sep-2025 16:27:25.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 31 2025 18:19:48 UTC
+08-Sep-2025 16:27:25.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.108.0
+08-Sep-2025 16:27:25.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+08-Sep-2025 16:27:25.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     15.6.1
+08-Sep-2025 16:27:25.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+08-Sep-2025 16:27:25.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+08-Sep-2025 16:27:25.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.12+8-LTS-286
+08-Sep-2025 16:27:25.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+08-Sep-2025 16:27:25.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 16:27:25.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/shingiseop/tomcat9
+08-Sep-2025 16:27:25.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Sep-2025 16:27:25.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+08-Sep-2025 16:27:25.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+08-Sep-2025 16:27:25.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Sep-2025 16:27:25.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Sep-2025 16:27:25.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/shingiseop/tomcat9
+08-Sep-2025 16:27:25.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 16:27:25.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/shingiseop/Desktop/spart/lunch_rec/temp
+08-Sep-2025 16:27:25.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/shingiseop/Desktop/spart/lunch_rec/conf/logging.properties
+08-Sep-2025 16:27:25.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Sep-2025 16:27:25.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=51218:/Applications/IntelliJ IDEA.app/Contents/bin
+08-Sep-2025 16:27:25.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+08-Sep-2025 16:27:25.686 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/shingiseop/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Sep-2025 16:27:25.870 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-5200"]을(를) 초기화합니다.
+08-Sep-2025 16:27:25.883 INFO [main] org.apache.catalina.startup.Catalina.load [332] 밀리초 내에 서버가 초기화되었습니다.
+08-Sep-2025 16:27:25.911 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+08-Sep-2025 16:27:25.911 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.108]
+08-Sep-2025 16:27:25.918 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]을(를) 배치합니다.
+08-Sep-2025 16:27:26.017 SEVERE [main] org.apache.tomcat.util.digester.Digester.fatalError [1] 행 [1] 열에서 심각한 파싱 오류 발생
+	org.xml.sax.SAXParseException; systemId: file:/Users/shingiseop/Desktop/spart/lunch_rec/src/main/webapp/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Premature end of file.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1013)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:114)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1247)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:972)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4407)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1579)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+08-Sep-2025 16:27:26.017 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml [file:/Users/shingiseop/Desktop/spart/lunch_rec/src/main/webapp/WEB-INF/web.xml]에 위치한 애플리케이션 web.xml 내에서 파싱 오류 발생
+	org.xml.sax.SAXParseException; systemId: file:/Users/shingiseop/Desktop/spart/lunch_rec/src/main/webapp/WEB-INF/web.xml; lineNumber: 1; columnNumber: 1; Premature end of file.
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1013)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1518)
+		at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:114)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1247)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:972)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4407)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1839)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1579)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:76)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+08-Sep-2025 16:27:26.018 SEVERE [main] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml 행 [1], 열 [1]에서 발생했음
+08-Sep-2025 16:27:26.027 SEVERE [main] org.apache.catalina.startup.ContextConfig.configureStart 이전 오류(들)로 인하여, 이 애플리케이션이 가용하지 않은 것으로 표시합니다.
+08-Sep-2025 16:27:26.045 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal 하나 이상의 구성요소(들)이, 해당 컨텍스트가 올바로 설정되지 않았다고 표시했습니다.
+08-Sep-2025 16:27:26.054 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal 이전 오류들로 인해 컨텍스트 []의 시작이 실패했습니다.
+08-Sep-2025 16:27:26.057 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]의 배치가 [140] 밀리초 내에 완료되었습니다.
+08-Sep-2025 16:27:26.059 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-5200"]을(를) 시작합니다.
+08-Sep-2025 16:27:26.068 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [184] 밀리초 내에 시작되었습니다.
+08-Sep-2025 16:29:36.306 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-5200"]을(를) 일시 정지 중
+08-Sep-2025 16:29:36.308 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+08-Sep-2025 16:29:36.309 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-5200"]을(를) 중지시킵니다.
+08-Sep-2025 16:29:36.312 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-5200"]을(를) 소멸시킵니다.
+08-Sep-2025 16:31:23.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.108
+08-Sep-2025 16:31:23.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 31 2025 18:19:48 UTC
+08-Sep-2025 16:31:23.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.108.0
+08-Sep-2025 16:31:23.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+08-Sep-2025 16:31:23.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     15.6.1
+08-Sep-2025 16:31:23.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+08-Sep-2025 16:31:23.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+08-Sep-2025 16:31:23.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.12+8-LTS-286
+08-Sep-2025 16:31:23.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+08-Sep-2025 16:31:23.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 16:31:23.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/shingiseop/tomcat9
+08-Sep-2025 16:31:23.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Sep-2025 16:31:23.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+08-Sep-2025 16:31:23.258 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+08-Sep-2025 16:31:23.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Sep-2025 16:31:23.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Sep-2025 16:31:23.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/shingiseop/tomcat9
+08-Sep-2025 16:31:23.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 16:31:23.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/shingiseop/Desktop/spart/lunch_rec/temp
+08-Sep-2025 16:31:23.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/shingiseop/Desktop/spart/lunch_rec/conf/logging.properties
+08-Sep-2025 16:31:23.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Sep-2025 16:31:23.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=51236:/Applications/IntelliJ IDEA.app/Contents/bin
+08-Sep-2025 16:31:23.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+08-Sep-2025 16:31:23.271 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/shingiseop/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Sep-2025 16:31:23.456 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-5200"]을(를) 초기화합니다.
+08-Sep-2025 16:31:23.469 INFO [main] org.apache.catalina.startup.Catalina.load [376] 밀리초 내에 서버가 초기화되었습니다.
+08-Sep-2025 16:31:23.505 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+08-Sep-2025 16:31:23.505 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.108]
+08-Sep-2025 16:31:23.510 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]을(를) 배치합니다.
+08-Sep-2025 16:31:23.967 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+08-Sep-2025 16:31:23.988 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]의 배치가 [478] 밀리초 내에 완료되었습니다.
+08-Sep-2025 16:31:23.990 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-5200"]을(를) 시작합니다.
+08-Sep-2025 16:31:23.998 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [529] 밀리초 내에 시작되었습니다.
+08-Sep-2025 16:32:54.343 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-5200"]을(를) 일시 정지 중
+08-Sep-2025 16:32:54.345 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+08-Sep-2025 16:32:54.354 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-5200"]을(를) 중지시킵니다.
+08-Sep-2025 16:32:54.358 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-5200"]을(를) 소멸시킵니다.
+08-Sep-2025 16:34:28.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.108
+08-Sep-2025 16:34:28.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 31 2025 18:19:48 UTC
+08-Sep-2025 16:34:28.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.108.0
+08-Sep-2025 16:34:28.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+08-Sep-2025 16:34:28.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     15.6.1
+08-Sep-2025 16:34:28.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+08-Sep-2025 16:34:28.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+08-Sep-2025 16:34:28.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.12+8-LTS-286
+08-Sep-2025 16:34:28.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+08-Sep-2025 16:34:28.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 16:34:28.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/shingiseop/tomcat9
+08-Sep-2025 16:34:28.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Sep-2025 16:34:28.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+08-Sep-2025 16:34:28.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+08-Sep-2025 16:34:28.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Sep-2025 16:34:28.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Sep-2025 16:34:28.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/shingiseop/tomcat9
+08-Sep-2025 16:34:28.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 16:34:28.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/shingiseop/Desktop/spart/lunch_rec/temp
+08-Sep-2025 16:34:28.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/shingiseop/Desktop/spart/lunch_rec/conf/logging.properties
+08-Sep-2025 16:34:28.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Sep-2025 16:34:28.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=51257:/Applications/IntelliJ IDEA.app/Contents/bin
+08-Sep-2025 16:34:28.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+08-Sep-2025 16:34:28.764 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/shingiseop/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Sep-2025 16:34:28.938 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-5200"]을(를) 초기화합니다.
+08-Sep-2025 16:34:28.950 INFO [main] org.apache.catalina.startup.Catalina.load [354] 밀리초 내에 서버가 초기화되었습니다.
+08-Sep-2025 16:34:28.973 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+08-Sep-2025 16:34:28.973 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.108]
+08-Sep-2025 16:34:28.977 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]을(를) 배치합니다.
+08-Sep-2025 16:34:29.473 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+08-Sep-2025 16:34:29.498 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]의 배치가 [520] 밀리초 내에 완료되었습니다.
+08-Sep-2025 16:34:29.500 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-5200"]을(를) 시작합니다.
+08-Sep-2025 16:34:29.509 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [559] 밀리초 내에 시작되었습니다.
+08-Sep-2025 16:36:54.344 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-5200"]을(를) 일시 정지 중
+08-Sep-2025 16:36:54.346 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+08-Sep-2025 16:36:54.357 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-5200"]을(를) 중지시킵니다.
+08-Sep-2025 16:36:54.372 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-5200"]을(를) 소멸시킵니다.
+08-Sep-2025 16:36:59.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.108
+08-Sep-2025 16:36:59.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 31 2025 18:19:48 UTC
+08-Sep-2025 16:36:59.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.108.0
+08-Sep-2025 16:36:59.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+08-Sep-2025 16:36:59.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     15.6.1
+08-Sep-2025 16:36:59.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+08-Sep-2025 16:36:59.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+08-Sep-2025 16:36:59.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.12+8-LTS-286
+08-Sep-2025 16:36:59.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+08-Sep-2025 16:36:59.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 16:36:59.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/shingiseop/tomcat9
+08-Sep-2025 16:36:59.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Sep-2025 16:36:59.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+08-Sep-2025 16:36:59.691 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+08-Sep-2025 16:36:59.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Sep-2025 16:36:59.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Sep-2025 16:36:59.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/shingiseop/tomcat9
+08-Sep-2025 16:36:59.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 16:36:59.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/shingiseop/Desktop/spart/lunch_rec/temp
+08-Sep-2025 16:36:59.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/shingiseop/Desktop/spart/lunch_rec/conf/logging.properties
+08-Sep-2025 16:36:59.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Sep-2025 16:36:59.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=51271:/Applications/IntelliJ IDEA.app/Contents/bin
+08-Sep-2025 16:36:59.692 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+08-Sep-2025 16:36:59.699 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/shingiseop/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Sep-2025 16:36:59.887 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-5200"]을(를) 초기화합니다.
+08-Sep-2025 16:36:59.907 INFO [main] org.apache.catalina.startup.Catalina.load [336] 밀리초 내에 서버가 초기화되었습니다.
+08-Sep-2025 16:36:59.935 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+08-Sep-2025 16:36:59.935 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.108]
+08-Sep-2025 16:36:59.942 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]을(를) 배치합니다.
+08-Sep-2025 16:37:00.449 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+08-Sep-2025 16:37:00.473 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]의 배치가 [530] 밀리초 내에 완료되었습니다.
+08-Sep-2025 16:37:00.475 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-5200"]을(를) 시작합니다.
+08-Sep-2025 16:37:00.484 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [577] 밀리초 내에 시작되었습니다.
+08-Sep-2025 16:38:01.373 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-5200"]을(를) 일시 정지 중
+08-Sep-2025 16:38:01.376 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+08-Sep-2025 16:38:01.383 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-5200"]을(를) 중지시킵니다.
+08-Sep-2025 16:38:01.387 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-5200"]을(를) 소멸시킵니다.
+08-Sep-2025 16:38:03.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.108
+08-Sep-2025 16:38:03.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 31 2025 18:19:48 UTC
+08-Sep-2025 16:38:03.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.108.0
+08-Sep-2025 16:38:03.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+08-Sep-2025 16:38:03.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     15.6.1
+08-Sep-2025 16:38:03.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+08-Sep-2025 16:38:03.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+08-Sep-2025 16:38:03.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.12+8-LTS-286
+08-Sep-2025 16:38:03.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+08-Sep-2025 16:38:03.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 16:38:03.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/shingiseop/tomcat9
+08-Sep-2025 16:38:03.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Sep-2025 16:38:03.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+08-Sep-2025 16:38:03.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+08-Sep-2025 16:38:03.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Sep-2025 16:38:03.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Sep-2025 16:38:03.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/shingiseop/tomcat9
+08-Sep-2025 16:38:03.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 16:38:03.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/shingiseop/Desktop/spart/lunch_rec/temp
+08-Sep-2025 16:38:03.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/shingiseop/Desktop/spart/lunch_rec/conf/logging.properties
+08-Sep-2025 16:38:03.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Sep-2025 16:38:03.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=51281:/Applications/IntelliJ IDEA.app/Contents/bin
+08-Sep-2025 16:38:03.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+08-Sep-2025 16:38:03.514 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/shingiseop/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Sep-2025 16:38:03.737 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-5200"]을(를) 초기화합니다.
+08-Sep-2025 16:38:03.753 INFO [main] org.apache.catalina.startup.Catalina.load [384] 밀리초 내에 서버가 초기화되었습니다.
+08-Sep-2025 16:38:03.780 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+08-Sep-2025 16:38:03.780 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.108]
+08-Sep-2025 16:38:03.784 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]을(를) 배치합니다.
+08-Sep-2025 16:38:04.260 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+08-Sep-2025 16:38:04.285 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]의 배치가 [500] 밀리초 내에 완료되었습니다.
+08-Sep-2025 16:38:04.288 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-5200"]을(를) 시작합니다.
+08-Sep-2025 16:38:04.296 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [542] 밀리초 내에 시작되었습니다.
+08-Sep-2025 16:43:48.162 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-5200"]을(를) 일시 정지 중
+08-Sep-2025 16:43:48.165 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+08-Sep-2025 16:43:48.176 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-5200"]을(를) 중지시킵니다.
+08-Sep-2025 16:43:48.189 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-5200"]을(를) 소멸시킵니다.
+08-Sep-2025 16:43:50.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.108
+08-Sep-2025 16:43:50.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 31 2025 18:19:48 UTC
+08-Sep-2025 16:43:50.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.108.0
+08-Sep-2025 16:43:50.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+08-Sep-2025 16:43:50.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     15.6.1
+08-Sep-2025 16:43:50.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+08-Sep-2025 16:43:50.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+08-Sep-2025 16:43:50.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.12+8-LTS-286
+08-Sep-2025 16:43:50.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+08-Sep-2025 16:43:50.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 16:43:50.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/shingiseop/tomcat9
+08-Sep-2025 16:43:50.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Sep-2025 16:43:50.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+08-Sep-2025 16:43:50.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+08-Sep-2025 16:43:50.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Sep-2025 16:43:50.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Sep-2025 16:43:50.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/shingiseop/tomcat9
+08-Sep-2025 16:43:50.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 16:43:50.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/shingiseop/Desktop/spart/lunch_rec/temp
+08-Sep-2025 16:43:50.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/shingiseop/Desktop/spart/lunch_rec/conf/logging.properties
+08-Sep-2025 16:43:50.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Sep-2025 16:43:50.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=51308:/Applications/IntelliJ IDEA.app/Contents/bin
+08-Sep-2025 16:43:50.269 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+08-Sep-2025 16:43:50.276 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/shingiseop/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Sep-2025 16:43:50.484 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-5200"]을(를) 초기화합니다.
+08-Sep-2025 16:43:50.502 INFO [main] org.apache.catalina.startup.Catalina.load [360] 밀리초 내에 서버가 초기화되었습니다.
+08-Sep-2025 16:43:50.525 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+08-Sep-2025 16:43:50.525 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.108]
+08-Sep-2025 16:43:50.535 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]을(를) 배치합니다.
+08-Sep-2025 16:43:51.025 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+08-Sep-2025 16:43:51.047 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]의 배치가 [511] 밀리초 내에 완료되었습니다.
+08-Sep-2025 16:43:51.049 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-5200"]을(를) 시작합니다.
+08-Sep-2025 16:43:51.056 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [554] 밀리초 내에 시작되었습니다.
+08-Sep-2025 16:44:57.642 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-5200"]을(를) 일시 정지 중
+08-Sep-2025 16:44:57.644 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+08-Sep-2025 16:44:57.652 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-5200"]을(를) 중지시킵니다.
+08-Sep-2025 16:44:57.655 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-5200"]을(를) 소멸시킵니다.
+08-Sep-2025 16:44:59.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.108
+08-Sep-2025 16:44:59.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Jul 31 2025 18:19:48 UTC
+08-Sep-2025 16:44:59.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.108.0
+08-Sep-2025 16:44:59.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+08-Sep-2025 16:44:59.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     15.6.1
+08-Sep-2025 16:44:59.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          aarch64
+08-Sep-2025 16:44:59.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+08-Sep-2025 16:44:59.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          17.0.12+8-LTS-286
+08-Sep-2025 16:44:59.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Oracle Corporation
+08-Sep-2025 16:44:59.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 16:44:59.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/shingiseop/tomcat9
+08-Sep-2025 16:44:59.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Sep-2025 16:44:59.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+08-Sep-2025 16:44:59.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+08-Sep-2025 16:44:59.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Sep-2025 16:44:59.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Sep-2025 16:44:59.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/shingiseop/tomcat9
+08-Sep-2025 16:44:59.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/shingiseop/Desktop/spart/lunch_rec
+08-Sep-2025 16:44:59.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/shingiseop/Desktop/spart/lunch_rec/temp
+08-Sep-2025 16:44:59.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/shingiseop/Desktop/spart/lunch_rec/conf/logging.properties
+08-Sep-2025 16:44:59.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Sep-2025 16:44:59.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=51318:/Applications/IntelliJ IDEA.app/Contents/bin
+08-Sep-2025 16:44:59.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dfile.encoding=UTF-8
+08-Sep-2025 16:44:59.642 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/shingiseop/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+08-Sep-2025 16:44:59.805 INFO [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-5200"]을(를) 초기화합니다.
+08-Sep-2025 16:44:59.818 INFO [main] org.apache.catalina.startup.Catalina.load [296] 밀리초 내에 서버가 초기화되었습니다.
+08-Sep-2025 16:44:59.845 INFO [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+08-Sep-2025 16:44:59.845 INFO [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.108]
+08-Sep-2025 16:44:59.851 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]을(를) 배치합니다.
+08-Sep-2025 16:45:00.333 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+08-Sep-2025 16:45:00.356 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor 배치 descriptor [/Users/shingiseop/Desktop/spart/lunch_rec/conf/Catalina/localhost/ROOT.xml]의 배치가 [504] 밀리초 내에 완료되었습니다.
+08-Sep-2025 16:45:00.358 INFO [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-5200"]을(를) 시작합니다.
+08-Sep-2025 16:45:00.365 INFO [main] org.apache.catalina.startup.Catalina.start 서버가 [546] 밀리초 내에 시작되었습니다.
+08-Sep-2025 16:56:50.917 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-5200"]을(를) 일시 정지 중
+08-Sep-2025 16:56:50.920 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+08-Sep-2025 16:56:50.946 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-5200"]을(를) 중지시킵니다.
+08-Sep-2025 16:56:50.960 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-5200"]을(를) 소멸시킵니다.

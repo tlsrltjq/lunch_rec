@@ -1,6 +1,9 @@
-<%@ page contentType="text/html; charset=UTF-8" language="java" %>
-<%@ page import="java.util.List" %>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ page import="com.example.lunch_rec.Menu" %>
+<%@ page import="java.util.List" %>
+<%
+    List<Menu> menuList = (List<Menu>) request.getAttribute("menuList");
+%>
 
 <html>
 <head>
@@ -16,7 +19,6 @@
     </tr>
 
     <%
-        List<Menu> menuList = (List<Menu>) request.getAttribute("menuList");
         if (menuList != null && !menuList.isEmpty()) {
             for (Menu m : menuList) {
     %>
@@ -36,5 +38,6 @@
         }
     %>
 </table>
+<a href="/form.jsp">메뉴 추가하기</a>
 </body>
 </html>
