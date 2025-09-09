@@ -2,7 +2,7 @@
 <%@ page import="com.example.lunch_rec.Menu" %>
 <%@ page import="java.util.List" %>
 <%
-    List<Menu> menuList = (List<Menu>) request.getAttribute("menuList");
+    List<Menu> menuList = (List<Menu>) request.getAttribute("menuList"); // Controller에서 request에 담아온 menuList를 가져오기
 %>
 
 <html>
